@@ -1,0 +1,7 @@
+openai
+python-dotenv
+streamlit
+tiktoken
+requests
+fpdf2
+reportlab

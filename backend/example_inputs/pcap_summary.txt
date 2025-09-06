@@ -1,0 +1,3 @@
+Suspicious DNS requests to unknown TLDs.
+Frequent small HTTP POSTs to same endpoint.
+Outbound TCP on port 4444 to external IP.

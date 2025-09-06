@@ -1,0 +1,41 @@
+[
+  {
+    "timestamp": "2025-07-13T10:05:00Z",
+    "source_ip": "10.0.0.3",
+    "destination_ip": "203.0.113.10",
+    "protocol": "HTTPS",
+    "event": "large_data_transfer",
+    "bytes_sent": 50481293,
+    "user": "finance_user_01"
+  },
+  {
+    "timestamp": "2025-07-13T10:07:30Z",
+    "source_ip": "10.0.0.3",
+    "event": "process_created",
+    "process_name": "PowerShell.exe",
+    "command_line": "powershell -EncodedCommand JABwAHgAPQAnAFwAZgByAGUAZQBuACcAOwBlAHgA"
+  },
+  {
+    "timestamp": "2025-07-13T10:08:00Z",
+    "source_ip": "10.0.0.3",
+    "event": "registry_edit",
+    "registry_key": "HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "value_name": "Updater",
+    "value_data": "C:\\Users\\Public\\updater.exe"
+  },
+  {
+    "timestamp": "2025-07-13T10:10:00Z",
+    "source_ip": "10.0.0.3",
+    "event": "connection_attempt",
+    "destination_ip": "198.51.100.100",
+    "destination_port": 4444,
+    "protocol": "TCP"
+  },
+  {
+    "timestamp": "2025-07-13T10:15:00Z",
+    "source_ip": "10.0.0.3",
+    "event": "file_written",
+    "file_path": "C:\\Users\\Public\\stager.exe",
+    "file_hash": "d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2"
+  }
+]

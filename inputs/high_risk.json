@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-07-13T01:35:23Z",
+  "source_ip": "203.0.113.5",
+  "destination_ip": "45.77.60.12",
+  "protocol": "TCP",
+  "src_port": 3389,
+  "dst_port": 445,
+  "event_type": "network_connection",
+  "alert": {
+    "signature": "RDP Brute Force followed by Lateral SMB Exploit",
+    "category": "Intrusion Attempt",
+    "severity": 10
+  },
+  "file": {
+    "name": "mimikatz.exe",
+    "sha256": "44d88612fea8a8f36de82e1278abb02f",
+    "size": "2.1MB"
+  },
+  "process": {
+    "name": "powershell.exe",
+    "command_line": "powershell -EncodedCommand SQBFAFgAIAA9ACAAIgB3AHcAdwAuAGUAdgBpAGwALgBjAG8AbQAiADsAUABpAG4AZwAtAEgAbwBzAHQAIABJAEUAIAAkAEkARABGAEkAQwA9ADoAIgAxADYAMwAuADIAMwAuADEALgA0ACIACg=="
+  },
+  "user": "DOMAIN\\admin",
+  "action": "executed credential theft tool",
+  "flags": [
+    "external_ip",
+    "brute_force",
+    "hash_match",
+    "persistence",
+    "admin_user",
+    "exploit_attempt",
+    "malicious_command"
+  ],
+  "cve": "CVE-2023-23397"
+}

