@@ -10,7 +10,8 @@ Instructions are below in “Generate Your Own API Keys”.
 
 
 
-
+Watch the demo here:  
+[Demo: SOC AI Assistant](https://drive.google.com/file/d/1sH6hOsyFiEVD1jhPGRnBkK16AAegsiSj/view?usp=sharing)
 
 
 
